@@ -39,6 +39,7 @@ class AbstractSolrEventListener implements SolrEventListener {
   }
 
   public String toString() {
+    System.out.println("adding search");
     return getClass().getName() + args;
   }
 }
